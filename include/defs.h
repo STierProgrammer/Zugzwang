@@ -118,4 +118,20 @@ enum {
 
 enum { FALSE, TRUE } Bool;
 
+typedef struct {
+    int pieces[BOARD_SQUARE_NUM];
+    u64 pawns[3];
+    int king_sqaure[2];
+    int side;
+    int en_passant;
+    int fifty_move;
+    int ply;
+    int history_ply;
+    u64 position_key;
+    int pieces[13];
+    int big_pieces[3];
+    int major_pieces[3];
+    int minor_pieces[3];
+} Board;
+
 #endif
