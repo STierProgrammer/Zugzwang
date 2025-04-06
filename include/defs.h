@@ -3,7 +3,7 @@
 
 typedef unsigned long long u64;
 
-#define NAME "Cengine 1.0a"
+#define NAME "Zugzwang 1.0a"
 #define BOARD_SQUARE_NUM 120
 
 /*
